@@ -2,7 +2,7 @@
 
 
 # Laxmi Tiwari
-![Laxmi Tiwari](Laxmi_Tiwari_pic.jpg)
+
 **Contact Information:**
 - Location: Kathmandu, Nepal
 - Telephone: +977 9867343362
