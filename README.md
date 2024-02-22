@@ -1,6 +1,3 @@
-# TiwariLaxuu.github.io
-
-
 # Laxmi Tiwari
 
 **Contact Information:**
