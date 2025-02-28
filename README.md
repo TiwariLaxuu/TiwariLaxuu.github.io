@@ -34,7 +34,7 @@ As a graduate student, I am a committed and dedicated professional with a strong
 ## Education
 - Electronics and Communication Engineering, Tribhuvan University, Nepal (2015-2019)
 - Oxford Summer School Machine Learning (OXML-2022)
-- Master in Financial Engineering, WorldQuant University (2024-2026)
+- Master in Financial Engineering, WorldQuant University (2025-2027)
 
 ## Relevant Skills
 - Technical Skills: Python, Pytorch, Data Analysis, Data Wrangling, Research, Debugging code
