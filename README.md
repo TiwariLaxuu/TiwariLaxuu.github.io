@@ -12,14 +12,16 @@ As a graduate student, I am a committed and dedicated professional with a strong
 ## Work Experience
 
 ### AI Engineer - Logictronix Technologies (Jan 2022)
-- Reviewed and researched different GitHub papers to identify research gaps and algorithms.
-- Developed a model for risk minimization and profit optimization in High-Frequency Trading.
-- Implemented various Reinforcement Learning architectures and algorithms (Q-Learning, DDQN, Sarsa) on FOREX Dataset (USDJPY) with multi-agents Take Profit (TP) and Stop Loss (SL) for Long Session and Short Session.
-- Utilized OHLC data for feature engineering using technical indicators, momentum indicators, and pre-processing techniques.
-- Conducted evaluations using metrics such as Profit, Loss, Win Ratio, Frequency of TP, SL, Gross Loss, Gross Profit.
-- Performed Hyperparameter Tuning, Regularization, and Optimization.
-- Hosted the solution live on Amazon Instance, integrating with Oanda API.
-- Currently working on Co-operative MARL, pymarl, AiGym library.
+- Develop and implement mathematical models and statistical analyses to solve complex financial problems.
+- Conduct research on market trends and financial instruments to provide actionable insights.
+- Design and improve trading models using reinforcement learning to generate alpha and enhance investment performance.
+- Create market simulations for training and backtesting, applied to both paper and live trading scenarios.
+- Explore agent understanding and policy optimization, focusing on human psychology for profit and risk management.
+- Design hierarchical models for buy, hold, and sell strategies with reinforcement learning.
+- Implement multi-agent cooperative models and competitive strategies inspired by AlphaGo.
+- Develop explainable reinforcement learning models to understand agent decision-making processes.
+- Apply AlphaGo-style algorithms to historical board games for testing and research purposes.
+- Research and update on RL, Finance, Game, Autonomous Driving system, and various other domain.
 
 ### Research Engineer - Nerdplatoon (Mar 2020 - Aug 2020)
 - Applied machine learning approaches (XGBoost, SVM) for price prediction of old vehicles using different features, live tested on the Canada Car Store.
