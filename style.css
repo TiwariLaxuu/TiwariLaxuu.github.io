@@ -393,7 +393,7 @@ footer p {
 
 /* Publication Link Designer Styling */
 .publication-link {
-    color: inherit; /* Inherits the elegant white font color automatically */
+    color: var(--text); /* Inherits the elegant white font color automatically */
     text-decoration: none;
     transition: color 0.3s ease;
 }
