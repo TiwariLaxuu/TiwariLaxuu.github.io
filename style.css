@@ -391,6 +391,17 @@ footer p {
     letter-spacing: 1px;
 }
 
+/* Publication Link Designer Styling */
+.publication-link {
+    color: inherit; /* Inherits the elegant white font color automatically */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.publication-link:hover {
+    color: var(--accent-cyan); /* Elegantly changes to your neon cyan accent on hover */
+}
+
 /* Dynamic Mobile Responsiveness Layout Hooks */
 @media (max-width: 1024px) {
     .hero-title-wrapper h1 { font-size: 10vw; }
