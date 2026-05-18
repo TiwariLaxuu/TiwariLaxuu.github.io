@@ -3,58 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+    <title>Laxmi Tiwari | RL & Research Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header / Navigation -->
     <header>
-        <div class="logo">Your Name</div>
+        <div class="logo">Laxmi Tiwari</div>
         <nav>
             <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#experience">Experience</a>
+            <a href="#publications">Publications</a>
+            <a href="#awards">Awards</a>
+            <a href="#skills">Skills</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
-        <h1>Hi, I'm Your Name</h1>
-        <p>Researcher & Engineer focused on building intelligent systems.</p>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>Welcome to my personal site! I am passionate about solving complex problems, exploring cutting-edge technology, and collaborating on impactful research projects.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="container">
-        <h2>Featured Work</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Project One</h3>
-                <p>A brief description of an awesome project, research paper, or tool you built.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project Two</h3>
-                <p>Another incredible project highlighting your technical skills and problem-solving abilities.</p>
+        <div class="hero-content">
+            <h1>Laxmi Tiwari</h1>
+            <h2>Reinforcement Learning & Research Engineer</h2>
+            <p class="location">Kathmandu, Nepal</p>
+            <p class="bio-lead">Specializing in Deep RL, Multi-Agent Systems, Optimization, and Quantitative Finance.</p>
+            <div class="cta-links">
+                <a href="mailto:tiwarilaxuu@gmail.com" class="btn btn-primary">Email Me</a>
+                <a href="https://www.linkedin.com/in/laxmi-tiwari" target="_blank" class="btn">LinkedIn</a>
+                <a href="https://github.com/tiwarilaxuu" target="_blank" class="btn">GitHub</a>
             </div>
         </div>
     </section>
 
-    <!-- Footer / Contact Section -->
-    <footer id="contact">
-        <h2>Get in Touch</h2>
-        <p>Feel free to reach out for collaborations or just to say hello!</p>
-        <div class="social-links">
-            <a href="#">GitHub</a> | 
-            <a href="#">LinkedIn</a> | 
-            <a href="#">Email</a>
-        </div>
-        <p class="copyright">&copy; 2026 Your Name. All rights reserved.</p>
+    <main class="container">
+
+        <section id="about" class="section">
+            <h2>About & Research Interests</h2>
+            <p>I am a Senior Reinforcement Learning Engineer and Research Engineer with a strong foundation in mathematics and optimization. My work spans designing and deploying operational RL systems from scratch, including live trading environments and simulated autonomous systems.</p>
+            <div class="interests-grid">
+                <span>RL & Deep RL</span>
+                <span>Multi-Agent RL (MARL)</span>
+                <span>Lagrangian RL</span>
+                <span>Quantitative Finance</span>
+                <span>Agentic & Generative AI</span>
+                <span>Time Series Forecasting</span>
+                <span>Autonomous Systems</span>
+                <span>Explainable AI (XRL)</span>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Professional Experience</h2>
+            
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <h3>Senior RL Engineer</h3>
+                    <span class="date">2022 - Present</span>
+                </div>
+                <div class="sub-header">Logictronix Technologies | Lalitpur, Nepal</div>
+                <ul>
+                    <li>Independently designed and implemented reinforcement learning models from scratch using OpenAI Gym environment creation, focusing on Explainable RL (XRL) and Safe RL.</li>
+                    <li>Applied RL and multi-agent frameworks to production-ready scenarios across finance, autonomous vehicles, and cooperative agent systems.</li>
+                    <li>Delivered fully operational RL systems, combining theoretical mathematical rigor with applied engineering for live trading deployments.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <h3>Python Engineer (Part-Time)</h3>
+                    <span class="date">2024 - Present</span>
+                </div>
+                <div class="sub-header">NIBL Ace Capital Limited | Kathmandu, Nepal</div>
+                <ul>
+                    <li>Supported the Portfolio Management System (PMS) and research teams by managing and analyzing data using Python, transforming manual tasks into automated processes.</li>
+                    <li>Developed advanced automation tools for strategy development and decision-making.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <h3>Research Engineer</h3>
+                    <span class="date">2020 - 2021</span>
+                </div>
+                <div class="sub-header">Nerd Platoon | Bhaktapur, Nepal</div>
+                <ul>
+                    <li>Built machine learning models (XGBoost, SVM) for vehicle price prediction and conducted time-series analysis for deployment in live market platforms.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <h3>Research Intern</h3>
+                    <span class="date">2020</span>
+                </div>
+                <div class="sub-header">NAAMII | Kathmandu, Nepal</div>
+                <ul>
+                    <li>Developed deep learning models for image-based localization and improved geographic inference via visual similarity metrics.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="publications" class="section">
+            <h2>Presentations & Publications</h2>
+            <div class="publication-card">
+                <span class="pub-type">Paper</span>
+                <h3>"Look-Ahead Reinforcement Learning: Integrating Time-Series Forecasting"</h3>
+                <p class="pub-venue">6th ACM International Conference on AI in Finance (ICAIF 2025), Singapore</p>
+            </div>
+            <div class="publication-card">
+                <span class="pub-type">Poster</span>
+                <h3>"Recurrent Lagrangian PPO with Decision Tree in Trading"</h3>
+                <p class="pub-venue">11th Annual Bloomberg-Columbia Machine Learning in Finance Conference 2025, Columbia University</p>
+            </div>
+            <div class="publication-card">
+                <span class="pub-type">Paper</span>
+                <h3>"Multimodal AI for Gastrointestinal Diagnostics: Tackling VQA in MEDVQA-GI 2025"</h3>
+                <p class="pub-venue">CLEF 2025</p>
+            </div>
+            <div class="publication-card">
+                <span class="pub-type">Poster</span>
+                <h3>"Advanced Factor Analysis and Ensemble Learning of RL Algorithm"</h3>
+                <p class="pub-venue">IEEE IDS Conference 2025</p>
+            </div>
+        </section>
+
+        <section id="awards" class="section">
+            <h2>Honours & Awards</h2>
+            <ul class="awards-list">
+                <li><strong>Winner</strong> - SecureFinAI Task-1 (Crypto Trading with Decision Transformer) | <em>Presented at ICAIF, Singapore (2025)</em></li>
+                <li><strong>Winner</strong> - FinRL Crypto Trading Competition (FinRL-AlphaSeek) | <em>Poster at IEEE IDS Conference (2025)</em></li>
+                <li><strong>Selected Participant</strong> - Data Study Group, The Alan Turing Institute | <em>London, UK (2026)</em></li>
+                <li><strong>Winner</strong> - Ready Tensor AI Showcase (Most Promising Innovation) | <em>2024</em></li>
+                <li><strong>National Winner</strong> - Youth CO:Lab (UNICEF Project Panchakanya Cold-Store) | <em>2021</em></li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <p>Python (NumPy, Pandas, TensorFlow, PyTorch), JAX, JaxMARL</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Reinforcement Learning</h3>
+                    <p>Q-Learning, A2C, PPO, TD3, SAC, Multi-Agent RL (MARL)</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Optimization & Math</h3>
+                    <p>Gradient-based methods, Constrained Optimization, Lagrangian RL, Statistical Modeling</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & MLOps</h3>
+                    <p>Git, Linux/Ubuntu, AWS EC2 Deployment, Docker</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Education & Mentorship</h2>
+            <div class="education-grid">
+                <div>
+                    <h3>B.E. Electronics & Communication Engineering</h3>
+                    <p>Tribhuvan University, IOE Pashchimanchal Campus | 2015 - 2019</p>
+                </div>
+                <div>
+                    <h3>Oxford Machine Learning Summer School</h3>
+                    <p>University of Oxford (AI for Global Goals) | 2022</p>
+                </div>
+            </div>
+            <h3 style="margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem; color: #e2e8f0;">Selected Mentorship</h3>
+            <ul class="mentorship-list">
+                <li><strong>Mentor</strong>, MAFN Project Nexus – Columbia University & Logictronix (10 Weeks, 2025)</li>
+                <li><strong>Mentor</strong>, Research Training – Nepal Research and Collaboration Center (3 Months, 2025)</li>
+                <li><strong>Committee Member</strong>, Women in Big Data Nepal (2020 - 2023)</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Laxmi Tiwari. Built with HTML & CSS.</p>
     </footer>
 
 </body>
